@@ -37,3 +37,5 @@ public class Lion {
         return feline.getFood("Хищник");
     }
 }
+//////тесты
+//два теста на doesHaveMane
