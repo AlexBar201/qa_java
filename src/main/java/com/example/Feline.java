@@ -4,16 +4,9 @@ import java.util.List;
 
 public class Feline extends Animal implements Predator {
 
-     Animal animalMock;
-    public Feline(Animal animalMock) {
-        this.animalMock = animalMock;
-    }
-    public Feline() {
-    }
-
     @Override
     public List<String> eatMeat() throws Exception {
-        return animalMock.getFood("Хищник");
+        return getFood("Хищник");
     }
 
     @Override
